@@ -1,0 +1,7 @@
+%text {
+  @include fonts(.8rem, $minorText, light);
+  @include box($n, .4rem 0);
+  @include media('lg') {
+    @include fonts(1rem);
+  }
+}

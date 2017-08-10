@@ -1,0 +1,66 @@
+.email, .city {
+  font-size: 0.8rem;
+  color: #8c8b8b;
+  text-align: light;
+  margin: 0.4rem 0; }
+  @media (min-width: 1024px) {
+    .email, .city {
+      font-size: 1rem; } }
+
+* {
+  font-family: 'Lato', sans-serif; }
+
+body {
+  background: #fafafa;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.employeeDiv {
+  width: 310px;
+  margin: 1rem;
+  height: 150px;
+  border: solid 2px #c9c9c9;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #fff; }
+  @media (min-width: 1024px) {
+    .employeeDiv {
+      width: 30%;
+      height: 200px;
+      min-width: 435px; } }
+
+.smile {
+  width: 120px;
+  padding: 0 0.5rem;
+  height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  border-radius: 50%;
+  align-self: center; }
+  @media (min-width: 1024px) {
+    .smile {
+      width: 150px;
+      padding: 0 1rem 0 2rem;
+      height: 150px;
+      min-width: 150px;
+      min-height: 150px; } }
+
+.info {
+  align-self: center; }
+
+.name {
+  font-size: 1.5rem;
+  color: fWeight bold;
+  margin: 0.4rem 0; }
+  @media (min-width: 1024px) {
+    .name {
+      font-size: 1.75rem; } }
+
+.email {
+  text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */
