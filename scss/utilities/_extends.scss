@@ -1,7 +1,14 @@
 %text {
-  @include fonts(.8rem, $minorText, light);
+  text-decoration: none;
+  @include fonts(.8rem, $minorText, $n, 400);
   @include box($n, .4rem 0);
   @include media('lg') {
     @include fonts(1rem);
   }
+}
+
+%modalText {
+  text-decoration: none;
+  @include fonts(1.2rem, $minorText, 400);
+  @include box($n, 1rem auto);
 }

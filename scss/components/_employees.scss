@@ -1,6 +1,6 @@
 .employeeDiv {
-  @include box(310px, 1rem, $n, 150px);
-  @include borders(solid 2px $boxBorder, .5rem);
+  @include box(315px, 1rem auto, $n, 150px);
+  @include borders(solid 1px $boxBorder, .5rem);
   @include flex(row, nowrap);
   background: $boxBG;
   @include media('lg') {
@@ -9,13 +9,17 @@
   }
 }
 
+.employeeDiv:hover {
+  opacity: .5;
+}
+
 .smile {
   @include box(120px, $n, 0 .5rem, 120px);
   @include min-max(120px, 120px);
   @include borders($n, 50%);
   @include flexAdds($n, center);
   @include media('lg') {
-    @include box(150px, $n, 0 1rem 0 2rem, 150px);
+    @include box(150px, $n, 0 1rem 0 1.75rem, 150px);
     @include min-max(150px, 150px);
   }
 }
@@ -25,18 +29,14 @@
 }
 
 .name {
-  @include fonts(1.5rem, fWeight bold);
+  @include fonts(1.5rem, $fWeight: 900);
   @include box($n, .4rem 0);
   @include media('lg') {
     @include fonts(1.75rem);
   }
 }
 
-.email {
-  text-decoration: none;
-  @extend %text;
-}
-
+.email,
 .city {
   @extend %text;
 }

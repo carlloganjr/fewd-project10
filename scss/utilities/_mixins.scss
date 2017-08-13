@@ -49,3 +49,11 @@
   max-width: $mxw;
   max-height: $mxh;
 }
+
+@mixin position($pos: $n, $t: $n, $l: $n, $r: $n, $b: $n) {
+  position: $pos;
+  top: $t;
+  left: $l;
+  right: $r;
+  bottom: $b;
+}
