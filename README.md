@@ -5,7 +5,7 @@ The goal is to utilize an API using AJAX to create an employee directory.
 ## Built With
 
 * [Sass](http://sass-lang.com/) - CSS extension language
-* [API](https://randomuser.me/) - API used to generate information
+* [Random User](https://randomuser.me/) - API used to generate information
 
 ## Authors
 
